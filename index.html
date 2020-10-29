@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+
+</head>
+
+<body>
+
+<div class="container py3">
+
+  <div class="form-group">
+<label>Product Name</label>
+<input id="productNameInp" class="form-control">
+  </div>
+
+  <div class="form-group">
+      <label>Product Price</label>
+      <input id="productPriceInp" class="form-control">
+        </div>
+
+  <div class="form-group">
+      <label>Product Category</label>
+      <input id="productCategoryInp" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label>Product Code</label>
+            <input id="productCodeInp" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label>Product Description</label>
+                <input id="productDec" class="form-control">
+                  </div>
+    
+    
+  <button onclick="addProduct()" class="btn btn-info mt-3 float-right">Add product</button>
+<div class="clearfix"></div>
+</div>
+
+    <table class="table w-75 m-auto">
+      
+<thead>
+<th>Name</th>
+<th>price</th>
+<th>category</th>
+<th>model</th>
+<th>desc</th>
+
+</thead>
+
+
+<tbody id="tableBody">
+
+
+  </tbody>
+    </table>    
+    
+  <script src="js/first.js"></script>
+</body>
+
+</html>
